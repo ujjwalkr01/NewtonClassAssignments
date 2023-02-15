@@ -26,7 +26,6 @@ public class MinimumXOR {
 
 		for (int i = 0; i < n - 1; i++) {
 			val = arr[i] ^ arr[i + 1];
-			System.out.println(val);
 			min_Xor = Math.min(min_Xor, val);
 		}
 
