@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Assignment</title>
+</head>
+<body>
+    <form method="post">
+        <h3>Feedback Form</h3>
+
+        <label for="name">Your name</label>
+        <input id="name" type="text" required minlength="3" maxlength="50">
+        <br>
+
+        <label for="portfolio">You portfolio</label>
+        <input id="portfolio" type="url" required>
+        <br>
+
+        <label for="favColor">Your fav color</label>
+        <input id="favColor" type="color">
+        <br>
+
+        <label for="likeness">From one to hundred choose likeness</label>
+        <input id="likeness" type="range" min="1" max="100">
+        <br>
+        <button type="submit" >Submit</button>
+    </form>
+</body>
+</html>
